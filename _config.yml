@@ -18,6 +18,7 @@
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
+<<<<<<< HEAD
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Starter Kit
@@ -67,6 +68,9 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
+=======
+title:                 seo0ojin
+>>>>>>> c1fa5e5e5f504b8b35072779bb34c133a885f343
 copyright:             © 2021. All rights reserved.
 
 # Format of the permalinks
@@ -184,6 +188,14 @@ kramdown:
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
 # These settings are specific to Hydejack.
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 hydejack:
   # Configure the order of complementary content on blog posts
